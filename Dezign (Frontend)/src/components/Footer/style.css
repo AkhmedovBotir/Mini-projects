@@ -1,0 +1,36 @@
+.bolder {
+    font-weight: 600;
+}
+
+.content-footer {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 54px;
+    line-height: 150%;
+    color: #E3E4E6;
+}
+
+.content-icon>a {
+    color: #e3e4e68c;
+    font-size: 30px;
+}
+
+.content-desc {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    color: #E3E4E6;
+}
+@media (max-width: 992px){
+    .content-footer{
+        font-size: 27px;
+    }
+    .content-desc,
+    .content-icon > a{
+        font-size: 15px;
+    }
+    
+}
